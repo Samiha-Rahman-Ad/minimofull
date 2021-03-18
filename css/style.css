@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+    margin-top: 10px;
+	background-color: #fff;
+}
+
+header{
+	width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.logo{
+	width: 20%;
+    float: left;
+    margin-top: 12px;
+}
+
+.logo img{
+
+}
+
+header nav{
+    width: 40%;
+}
+
+header nav ul{	
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+}
+
+header nav ul li{
+	text-transform: uppercase;
+    color: #626262;
+    font-size: 17px;
+    margin-top: 18px;
+}  
+
+.banner{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 35px; 
+}
+
+.banner img{
+    width: 100%;
+}
+
+.photodiary{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.photodiary h5{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.photodiary h1{
+    color: #626262;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.photodiary p{
+    color: #626262;
+    font-size: 17px;
+    margin-bottom: 50px;
+    margin-right: 1px;
+    font-family: 'Playfair Display', serif;
+}
+
+.photodiary h6{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 80px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.lifestyle{
+    width: 70%;
+    margin: auto; 
+    overflow: hidden;
+}
+
+.lifestyle_left{
+    width: 48%;
+    float: left;
+}
+
+.lifestyle_left img{
+    width: 100%;
+}
+
+.lifestyle_left h1{
+    font-size: 35px;
+    color: #626262;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.lifestyle_left p{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.lifestyle_left h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.lifestyle_right{
+    width: 48%;
+    float: right;
+}
+
+.lifestyle_right img{
+    width: 100%;
+}
+
+.lifestyle_right h1{
+    font-size: 35px;
+    color: #626262;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.lifestyle_right p{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.lifestyle_right h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+.news{
+    background-color: #f0f0f0;
+    margin-bottom: 75px;
+    margin-top: 20px;
+}
+
+.news-content{
+    width: 30%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.news-content h1{
+    font-size: 35px;
+    color: #626262;
+    margin-bottom: 63px;
+    font-family: 'Playfair Display', serif;
+}
+
+.news-content input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #010101;
+    width: 100%; 
+}
+.send{
+    margin-left: 400px;
+    margin-top: -29px;
+    position: absolute;
+}
+
+.load{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+.load button{
+    padding: 16px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 100px 0;
+}
+
+.footer{
+    background-color: #f0f0f0;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.cr{
+    color: #626262;
+    width: 20%;
+    margin-top: 11px;
+    font-family: 'Ubuntu', serif;
+}
+
+footer nav{
+    width: 40%;
+}
+
+footer nav ul{  
+    list-style: none;
+    display: flex;
+    margin-left: 250px;
+}
+
+footer nav ul li{
+    color: #626262;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 18px;
+    margin-right: 12px;
+    font-family: 'Ubuntu', serif;
+}  
+
+footer nav ul li img{
+    margin-top: -5px;
+    margin-right: 12px;
+}  
